@@ -1,0 +1,25 @@
+﻿## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.DotSettings.user
+
+## Configuracion sensible -- NUNCA commitear
+**/appsettings.Production.json
+**/agent.key
+
+## Build artifacts
+installers/windows/*.msi
+installers/linux/*.deb
+installers/linux/*.rpm
+
+## Test results
+TestResults/
+coverage/
+BenchmarkDotNet.Artifacts/
+
+## OS
+.DS_Store
+Thumbs.db
